@@ -9,7 +9,7 @@
   justify-content: center;
   border: 1px solid black;
   height: 40px;
-  margin-top: 110px;
+  /* margin-top: 110px; */
 }
 .option1{
   display: flex;
@@ -45,8 +45,7 @@
 position: relative;
 display: inline-block;
 }
-
-.mob-content {
+.mob-content { 
 display: none;
 position: absolute;
 background-color: #F1F1F1;
@@ -67,7 +66,7 @@ display: block;
 .mob:hover .mob-content {display: block;}
 
 .mob:hover .h4 {background-color: #3E8E41;}
-
+ */
 
 .fur {
 position: relative;
@@ -206,8 +205,18 @@ display: block;
 
 .mid{
 display: flex;
+justify-content: space-between;
+}
+.mid >div> h3{
+text-align: center;
+margin-top: 40px;
 }
 .mid img{
-padding : 10px ;
-}
+padding-left: 110px;
+margin-top: 50px;
 
+}
+.most >div>h1{
+text-align: center;
+margin-top: 40px;
+}
