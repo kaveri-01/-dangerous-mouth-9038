@@ -1,0 +1,144 @@
+{"care_log":[
+    {
+        "id":1,
+        "title":"Apple iphone x",
+        "image_url":"https://teja9.kuikr.com/i6/20171228/VB201705171774173-ak_LWBP77997365-1514461008.jpeg",
+        "price":"45,541",
+       
+        "description":"IPhone X 64 Gb with Face ID issue"
+        
+
+    },
+    {
+        "id":2,
+        "title":"Apple iphone 6",
+        "image_url":"https://teja8.kuikr.com/o1/20190423/ak_135603035-1556027454.jpeg",
+        "price":"20,000",
+
+        "description":"IPHONE 6 64GB UNDER WARRANTY"
+    },
+    {
+        "id":3,
+        "title":"samsung",
+        "image_url":"https://teja10.kuikr.com/o1/20190424/ak_956782864-1556109242.jpeg",
+        "price":"₹7,500",
+       
+        "description":"Samsung S20 plus (83681 70474) 5G"
+    },
+    {
+        "id":4,
+        "title":"redmi",
+        "image_url":"https://teja9.kuikr.com/o1/20190424/ak_1766796961-1556107362.jpeg",
+        "price":"1790",
+   
+        "description":""
+
+    },
+    {
+        "id":5,
+        "title":"",
+        "image_url":"https://teja9.kuikr.com/o1/20190424/ak_1766796961-1556107362.jpeg",
+        "price":"1790",
+        
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+
+    },
+    {
+        "id":6,
+        "title":"oppo",
+        "image_url":"",
+        "price":"29670",
+        "description":"oppo X 124 Gb with Face ID issue"
+
+    },
+    {
+        "id":7,
+        "title":"Redmi",
+        "image_url":"https://teja9.kuikr.com/o1/20190424/ak_1766796961-1556107362.jpeg",
+        "price":"29900",
+        "description":"Redmi Note 7 Pro"
+    },
+    {
+        "id":8,
+        "title":"https://teja10.kuikr.com/i6/20171228/VB201705171774173-ak_LWBP70849712-1514445358.jpeg",
+        "image_url":"",
+        "price":"29900",
+        "description":"Redmi Note 7 Pro"
+       
+    },
+    {
+        "id":9,
+        "title":"Energy Screening",
+        "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/CF01032_hero_2.png",
+        "price":"1490",
+        "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/CF01032_magazine_2.png",
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+
+    },
+    {
+        "id":10,
+        "title":"Pregnancy Test",
+        "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/PregnancyScreening_Magazine.png",
+        "price":"1990",
+        "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/PregnancyScreening_Hero.png",
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+    },
+    {
+        "id":11,
+        "title":"Kidney Function Test (KFT)",
+        "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Kidney_Screening_clp.jpg",
+        "price":"890",
+        "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/mp/diag_pack_Kidney_Screening_hero.jpg",
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+    },
+    {
+        "id":12,
+        "title":"Hair Fall Screening (Ferritin,TSH,VitB12,VitD)",
+        "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/HairFallScreeningClp122019.png",
+        "price":"890",
+        "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/HairFallScreeningHero122019.png",
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+
+    },
+    {
+        "id":13,
+        "title":"Liver Function Test (LFT)",
+        "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Liver_Screening_clp.jpg",
+        "price":"890",
+        "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/mp/diag_pack_Liver_Screening_hero.jpg",
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+    },
+    {
+        "id":14,
+        "title":"Fever Panel",
+        "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FeverPanel_Magazine.jpg",
+        "price":"890",
+        "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/FeverPanel_Hero.jpg",
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+    },
+    {
+        "id":15,
+        "title":"Alcohol Risk Assessment",
+        "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Alcohol_magazine.png",
+        "price":"890",
+        "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/Alcohol_Hero.jpg",
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+    },
+
+    { 
+        "id":16,
+        "title":"Anemia Profile",
+        "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/Anemia_Magazine_Web_new.png",
+        "price":"890",
+        "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/diagnostics/screening-packs/AnemiaHero.png",
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+    },
+    {
+        "id":17,
+        "title":"Obesity Risk Profile",
+        "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Obesity_Risk_Magazine.jpg",
+        "price":"890",
+        "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/Obesity_Risk_Hero.jpg",
+        "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
+    }
+]}
