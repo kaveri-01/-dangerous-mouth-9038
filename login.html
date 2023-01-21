@@ -48,53 +48,66 @@
     
 <!-- <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_75,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/curefit-logo-white.svg" alt=""> <br>
  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_135,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cf-name-white.png" alt="">  <br> -->
-<label style="color: white;">Mobile Number: <br> 
+<label style="color: black;">Mobile Number: <br> 
 <input id="num" type="text" placeholder="Enter your phone number"></label><br>
 <label id="otp" ><input id="myotp" type="text" placeholder="Enter your OTP"><br>
 <button onclick="check()">Submit</button></label>
-<button id="hide" onclick="start()">CONTINUE</button>
+<button id="hide" onclick="login()">CONTINUE</button>
 
 <div>
-    <p style="color: white;">or follow on
+    <p style="color: black;">or follow on
     <a href="#" Class="social"><i Class="fab fa-facebook"></i></a>
     <a href="#" Class="social"><i Class="fab fa-instagram"></i></a>
     <a href="#" class="social"><i Class="fab fa fa-twitter"></i></a>
 </p>
 </div>
-<p style="color: white;">By Continuing you agree to the Terms of <br>
+<p style="color: black;">By Continuing you agree to the Terms of <br>
 Services and Privacy policy</p>
 </div> 
 </div>
 
 </body>
 </html>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script>
-    function start(){
-let otp = document.getElementById("otp")
+//     function start(){
+// let otp = document.getElementById("otp")
 
-let num = document.getElementById("num").value
-let button = document.getElementById("hide")
-if (num == ""){
-    alert("Enter your number")
+// let num = document.getElementById("num").value
+// let button = document.getElementById("hide")
+// if (num == ""){
+//     alert("Enter your number")
     
-}
-else{
-    otp.style.display = "block";
-    button.style.display = "none";
-}
+// }
+// else{
+//     otp.style.display = "block";
+//     button.style.display = "none";
+// }
 
-    }
-    function check(){
-        let myotp = document.getElementById("myotp").value
-        if(myotp == ""){
-            alert("Enter your otp")
-        //    {
-        //         alert ("login Successfull")
-                
-        //     }
-        } else {
-            alert("login Successfull")
-            location 
-        }
-    }   
+//     }
+function login(){
+    let x  = 0 ;
+let y = 9 ;
+
+let a = Math.floor(x + (y - x) * Math.random());
+let b = Math.floor(x + (y - x) * Math.random());
+let c = Math.floor(x + (y - x) * Math.random());
+let d = Math.floor(x + (y - x) * Math.random());
+
+console.log(a,b,c,d)
+
+let otp = String(a)+String(b)+String(c)+String(d);
+
+localStorage.setItem("otp",JSON.stringify(otp));
+console.log(otp)
+
+alert(otp)
+window.location.href = "connect.html"
+// swal("Good job!", "You clicked the button!", "success");
+
+
+}
+ 
 </script>
+
+
