@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: 40px;
+  /* margin-top: 110px; */
+}
+.option1{
+  display: flex;
+  margin: 35px 20px;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.option2{
+  display: flex;
+  margin: 35px 20px;
+  /* margin-left: 200px; */
+  /* border: 1px solid red; */
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: auto;
+}
+.img1{
+  height: 20px;
+}
+.img2{
+  height: 20px;
+}
+    #home{
+      display: flex;
+      justify-content: space-between;
+    }
+
+.mob {
+position: relative;
+display: inline-block;
+}
+.mob-content { 
+display: none;
+position: absolute;
+background-color: #F1F1F1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.mob-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.mob-content a:hover {background-color: #ddd;}
+
+.mob:hover .mob-content {display: block;}
+
+.mob:hover .h4 {background-color: #3E8E41;}
+ */
+
+.fur {
+position: relative;
+display: inline-block;
+}
+
+.fur-content {
+display: none;
+position: absolute;
+background-color: #F1F1F1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.fur-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.fur-content a:hover {background-color: #ddd;}
+
+.fur:hover .fur-content {display: block;}
+
+.fur:hover .h4 {background-color: #3E8E41;}
+
+.ele {
+position: relative;
+display: inline-block;
+}
+
+.ele-content {
+display: none;
+position: absolute;
+background-color: #F1F1F1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.ele-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.ele-content a:hover {background-color: #ddd;}
+
+.ele:hover .ele-content {display: block;}
+
+.ele:hover .h4 {background-color: #3E8E41;}
+
+.hp {
+position: relative;
+display: inline-block;
+}
+
+.hp-content {
+display: none;
+position: absolute;
+background-color: #F1F1F1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.hp-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.hp-content a:hover {background-color: #ddd;}
+
+.hp:hover .hp-content {display: block;}
+
+.hp:hover .h4 {background-color: #3E8E41;}
+
+.kids {
+position: relative;
+display: inline-block;
+}
+
+.kids-content {
+display: none;
+position: absolute;
+background-color: #F1F1F1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.kids-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.kids-content a:hover {background-color: #ddd;}
+
+.kids:hover .kids-content {display: block;}
+
+.kids:hover .h4 {background-color: #3E8E41;}
+
+.shf {
+position: relative;
+display: inline-block;
+}
+
+.shf-content {
+display: none;
+position: absolute;
+background-color: #F1F1F1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.shf-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.shf-content a:hover {background-color: #ddd;}
+
+.shf:hover .shf-content {display: block;}
+
+.shf:hover .h4 {background-color: #3E8E41;}
+
+.mid{
+display: flex;
+justify-content: space-between;
+}
+.mid >div> h3{
+text-align: center;
+margin-top: 40px;
+}
+.mid img{
+padding-left: 110px;
+margin-top: 50px;
+
+}
+.most >div>h1{
+text-align: center;
+margin-top: 40px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:1px;
+    margin-left:7%;
+    margin-right:60px;
+    cursor: pointer;
+}
+#container>img{
+    height: 100px;
+    width:135px;
+}
+.most{
+  margin-left:7%;
+}
+.most img{
+  height:100%;
+  width:100%;
+}

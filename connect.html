@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"/>
+    
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+       
+        #logo{
+          
+            background-color:wheat;
+            width: 40%;
+            margin: 100px auto;
+            text-align:center;
+            padding: 20px;
+            font-size: 20px;
+          
+        }
+        #logo>img,#logo>button,#logo>div{
+            margin: 20px 0px ;
+        }
+        input {
+            padding: 11px;
+            width: 50%;
+            margin-top: 10px;
+        }
+        button{
+            padding: 6px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        #otp{
+            display: none;
+
+        }
+    </style>
+</head>
+<body> 
+    <div class="border">
+   <div id="logo">
+    
+<!-- <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_75,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/curefit-logo-white.svg" alt=""> <br>
+ <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_135,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cf-name-white.png" alt="">  <br> -->
+<label style="color: black;">Otp: <br> 
+
+<!-- <label id="otp" > -->
+    <input id="myotp" type="text" placeholder="Enter your OTP">
+    <br>
+<button onclick="check()">Submit</button>
+<!-- </label> -->
+<!-- <button id="hide" onclick="login()">CONTINUE</button> -->
+
+<div>
+    <p style="color: black;">or follow on
+    <a href="#" Class="social"><i Class="fab fa-facebook"></i></a>
+    <a href="#" Class="social"><i Class="fab fa-instagram"></i></a>
+    <a href="#" class="social"><i Class="fab fa fa-twitter"></i></a>
+</p>
+</div>
+<p style="color: black;">By Continuing you agree to the Terms of <br>
+Services and Privacy policy</p>
+</div> 
+</div>
+
+</body>
+</html>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+
+function check(){
+    let otp = document.getElementById("otp");
+    let myotp = document.getElementById("myotp").value
+    if(myotp == ""){
+        alert("Enter your otp")
+    //    {
+    //         alert ("login Successfull")
+            
+    //     }
+    } else {
+        swal("Good job!", "You logineed the sucessfully!", "success");
+        window.location.href = "index.html"
+        
+    }
+}   
+</script>
