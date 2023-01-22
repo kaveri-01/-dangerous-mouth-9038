@@ -6,9 +6,6 @@ const mobile_data =[
         "price":"45,541",
         "button":"Add to cart",
         "button1":"Buy Now"
-       
-        
-        
 
     },
     {
@@ -18,8 +15,7 @@ const mobile_data =[
         "price":"20,000",
         "button":"Add to cart",
         "button1":"Buy Now"
-
-        
+  
     },
     {
         "id":3,
@@ -39,8 +35,6 @@ const mobile_data =[
         "button":"Add to cart",
         "button1":"Buy Now"
     
-   
- 
 
     },
     {
